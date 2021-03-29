@@ -1,8 +1,36 @@
+
+
 .cot{
-    height: 100%;
+    
+    height:100%;
     width: 100%;
+   
+           
+
     
 }
+
+
 .size{
     width: 100%;
+}
+.play{
+    position:absolute;
+    margin-top:-33%;
+    margin-left: 20%;
+    width:250px;
+    height:100px;
+}
+.form{
+    height: 100px;
+    width: 250px;
+    margin-left: 20%;
+    margin-top: -25%;
+    position:absolute;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    
 }

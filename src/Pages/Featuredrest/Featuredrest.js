@@ -1,18 +1,28 @@
 import React, { useEffect } from 'react';
 import axios from "axios";
+import { connect } from 'react-redux';
+import FeaturedresList from '../FeaturedrestList/FeaturedresList';
 
-const Featuredres=()=>{
+const Featuredres=({items})=>{
     useEffect(()=>{
-        async function getData(){
-            const res =await axios.get('{{url}}/restaurant/getAllFeatured?pageNo=1&size=2');
-            console.log(res);
+
+      async  function getData(){
+              const products = await axios.get('http://deeefoobackend.herokuapp.com/api/restaurant/getAllFeatured?pageNo=1&size=4');
+              console.log(products.data.data[0].Name);
+
+        
         }
         getData();
-    })
+    }
+    ,[])
     return(
         <>
+        <FeaturedresList/>
         
         </>
         )
 }
-export default Featuredres;
+var mapState=(state)=>({
+    items:state.spdproduct
+})
+export default connect(mapState) (Featuredres);

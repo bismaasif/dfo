@@ -1,10 +1,15 @@
-import {  product_set } from "./SpdProductConstants";
+import {  allproductset, product_set } from "./SpdProductConstants";
 import axios from "axios";
+import { useState } from "react";
 
 
 export var specifiedproduct=()=>async(dispatch)=>{
+ 
 try {
-   // var fetch =require("http://deeefoobackend.herokuapp.com/api/restaurant/getAllFeatured?pageNo=1&size=4");
+  ///api/restaurant/allrestaurants
+  //http://deeefoobackend.herokuapp.com/api/restaurant/allrestaurants
+  //http://deeefoobackend.herokuapp.com/api/restaurant/getAllFeatured?pageNo=1&size=4
+   // var fetch =require(`http://deeefoobackend.herokuapp.com/api/restaurant/getAllFeatured?pageNo=${page}&size=${size}`);
 
   //  async function getData(){
     
@@ -30,3 +35,6 @@ catch (error) {
     
 }
 }
+
+
+

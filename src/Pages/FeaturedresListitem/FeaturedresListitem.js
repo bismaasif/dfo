@@ -1,10 +1,17 @@
 const FeaturedresListitem=({...info})=>{
-   
-   console.log(info.data.data)
+   var data=[];
+  data=info.data.data;
+  
     return(
-        <>
-    
-       <h3>{info.data.data[0].Name}</h3>
+        
+        <div>
+{console.log(data)}
+          {data.map((d)=> <h3>{d.Name}<br/> {d.location}<br/>......</h3>)}
+          
+          
+       
+   
+    {/*   <h3>{info.data.data[0].Name}</h3>
        <h3>{info.data.data[0]._id}</h3>
        <h3>{info.data.data[0].ratings.ratings}</h3>
        <h3>{info.data.data[0].location}</h3>
@@ -22,12 +29,10 @@ const FeaturedresListitem=({...info})=>{
        <h3>{info.data.data[3].Name}</h3>
        <h3>{info.data.data[3]._id}</h3>
        <h3>{info.data.data[3].ratings.ratings}</h3>
-       <h3>{info.data.data[3].location}</h3>
-       
-      
-       <h2></h2>
-       
-        </>
+    <h3>{info.data.data[3].location}</h3>  */}
+    
+      </div>
+    
         )
 }
 export default FeaturedresListitem;

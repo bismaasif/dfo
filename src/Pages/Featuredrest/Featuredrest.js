@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import axios from "axios";
 import { connect } from 'react-redux';
 import FeaturedresList from '../FeaturedrestList/FeaturedresList';
+import { Link } from 'react-router-dom';
 
 const Featuredres=({items})=>{
     useEffect(()=>{
@@ -18,6 +19,8 @@ const Featuredres=({items})=>{
     return(
         <>
         <FeaturedresList/>
+        <Link to="/allres"><button>see more</button></Link>
+    
         
         </>
         )

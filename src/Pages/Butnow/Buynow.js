@@ -6,7 +6,7 @@ import imgb from './../../images/pages.png';
 const Buynow=()=>{
     return(
         <>
-
+<div className="red">
     <div container="cot">
    <img  className="size" src={imgz}/>
  
@@ -20,6 +20,7 @@ const Buynow=()=>{
   
 <img className="size" src={imgb}/>
 
+  </div>
   </div>
         </>
     )

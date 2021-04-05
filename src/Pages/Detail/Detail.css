@@ -18,6 +18,7 @@ grid-template-areas: " . img img img ."
                 ". i1 i2 i3 ."
                 ". d1 d2 d3 .";
 }
+
 .first{
   grid-area: img;
   display:flex;
@@ -103,4 +104,29 @@ margin-left: 1300%;
 
 
 
+}
+.video{
+  height:100%;
+  width: 100%;
+  
+ background: rgb(111, 11, 23);
+  display: grid;
+  grid-template-columns:  100fr;
+  grid-template-areas: " img ";
+
+  
+
+}
+.image3{
+  grid-area: img;
+  width: 100%;
+  height: 100%;
+  display:grid;
+  
+
+}
+.playbtn{
+  margin-left: 45%;
+  position: relative;
+  margin-top: -25%;
 }

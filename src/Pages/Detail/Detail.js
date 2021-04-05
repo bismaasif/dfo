@@ -10,14 +10,15 @@ import img7 from './../../images/no2bg.png';
 import img8 from './../../images/fulls1.png';
 import img9 from './../../images/desboxbg.png';
 import img10 from './../../images/bg.png';
-import img1 from './../../images/roundrect.jpg'
+import img1 from './../../images/playbtnbg.png'
+import it from './../../images/video.png'
 import './Detail.css';
 
 const Detail=()=>{
     return(
         <>
         
-
+<div className="red">
         <div className="cont">
             
             <div className="first">
@@ -66,6 +67,14 @@ const Detail=()=>{
                       
         </div>
 
+<div className="video">
+  <img className="image3" src={it}/>
+  <img className="playbtn" src={img1}/>
+  <br/>
+  <br/>
+
+</div>
+</div>
 </>
         
         

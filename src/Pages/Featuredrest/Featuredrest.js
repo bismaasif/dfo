@@ -21,6 +21,7 @@ const Featuredres=({items})=>{
     return(
         <>
          <hr className="new"/>
+         <h2 className="fs">Featured  Restaurants</h2>
         <div className="res">
         <FeaturedresList/>
         

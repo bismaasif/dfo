@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import axios from "axios";
 import { connect } from 'react-redux';
 import AllrestaurantList from '../AllrestaurantList/AllrestaurantList';
+import imgp from './../../images/back1.png';
+import { Link } from 'react-router-dom';
 
 const Allrestaurant=()=>{
   
@@ -18,7 +20,13 @@ const Allrestaurant=()=>{
       ,[])
     return(
         <>
+        <div className="res">
+
+       
         <AllrestaurantList/>
+        
+        <Link to="/"><div className="button"><img src={imgp}/></div></Link>
+        </div>
         </>
         )
 }

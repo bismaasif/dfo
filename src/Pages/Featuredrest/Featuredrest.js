@@ -3,6 +3,8 @@ import axios from "axios";
 import { connect } from 'react-redux';
 import FeaturedresList from '../FeaturedrestList/FeaturedresList';
 import { Link } from 'react-router-dom';
+import './Featuredrest.css';
+import img1 from './../../images/smbg2.png'
 
 const Featuredres=({items})=>{
     useEffect(()=>{
@@ -18,10 +20,14 @@ const Featuredres=({items})=>{
     ,[])
     return(
         <>
+         <hr className="new"/>
+        <div className="res">
         <FeaturedresList/>
-        <Link to="/allres"><button>see more</button></Link>
-    
         
+        </div>
+        <hr className="new"/>
+        <Link to="/allres"><div className="button"><img src={img1}/></div></Link>
+    
         </>
         )
 }

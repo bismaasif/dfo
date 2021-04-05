@@ -8,6 +8,8 @@ import Buynow from './Pages/Butnow/Buynow';
 import Home from './Pages/Home/Home';
 import Featuredres from './Pages/Featuredrest/Featuredrest';
 import Allrestaurant from './Pages/Allrestaurant/Allrestaurant';
+import ProductCard from './Component/ProductCard/ProductCard';
+
 
 
 
@@ -25,6 +27,7 @@ const App=()=>{
     <Route path="/footer" component={Footer}exact/>
     <Route path="/featuredres" component={Featuredres} exact/>
     <Route path="/allres" component={Allrestaurant} exact/>
+    <Route path="/product" component={ProductCard} exact/>
  
 </Switch>
 

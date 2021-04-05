@@ -1,3 +1,5 @@
+import ProductCard from "../../Component/ProductCard/ProductCard";
+import './FeaturedresListitem.css'
 const FeaturedresListitem=({...info})=>{
    var data=[];
   data=info.data.data;
@@ -6,9 +8,13 @@ const FeaturedresListitem=({...info})=>{
         
         <div>
 {console.log(data)}
-          {data.map((d)=> <h3>{d.Name}<br/> {d.location}<br/>......</h3>)}
-          
-          
+         
+          {/* {data.map((d)=> <h3>{d.Name}<br/> {d.location}<br/>......</h3>)} */}
+          <div className="listitem">
+
+         
+          {data.map((d)=> <ProductCard  {...d} key={d.Name}/>)}
+          </div>
        
    
     {/*   <h3>{info.data.data[0].Name}</h3>

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import FeaturedresListitem from '../FeaturedresListitem/FeaturedresListitem';
 import Featuredrest from '../Featuredrest/Featuredrest';
 import {specifiedproduct,allproducts} from './../../Redux/SpdProduct/SpdProductActions';
+import './FeaturedresList.css'
 
 const FeaturedresList=({specifiedproduct,items})=>{
     console.log(items)
@@ -13,8 +14,11 @@ specifiedproduct();
     },[])
     return(
         <>
-{items.map((info)=><FeaturedresListitem key={info.info} {...info}/>)}
+        <div className="list">
 
+        
+{items.map((info)=><FeaturedresListitem key={info.info} {...info}/>)}
+</div>
         </>
         )
 }

@@ -1,0 +1,17 @@
+.res{
+    display: grid;
+    grid-template-columns:80vw;
+    padding-left: 10em;
+    background:rgb(111, 11,23);
+}
+.button{
+    margin-left: 42%;
+    border-bottom: 5px;
+
+    
+}
+.new1{
+    border-radius: 50%/100px 100px  0 0;
+    border-color: yellow;
+    border: solid 2px yellow;
+}

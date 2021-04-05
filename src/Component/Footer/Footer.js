@@ -1,6 +1,7 @@
 import './Footer.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import ProductCard from '../ProductCard/ProductCard';
 
 
 

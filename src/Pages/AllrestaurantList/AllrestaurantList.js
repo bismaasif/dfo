@@ -13,8 +13,9 @@ const AllrestaurantList=({item1,allproducts})=>{
             },[])
     return(
         <>
-        
+        <div className="list">
     {item1.map((info)=><AllresListitem key={info._id} {...info}/>)}
+    </div>
         </>
         )
 }

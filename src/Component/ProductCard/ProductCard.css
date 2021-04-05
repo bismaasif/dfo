@@ -1,0 +1,38 @@
+.product_card{
+    width:10em;
+    padding:2em;
+    border-radius:2em;
+ 
+    background: rgb(111, 11, 23);
+    margin-top:1em;
+    box-shadow: 5px rgb(94, 88, 88)
+}
+.product_card_image{
+    width:10em;
+    height: 10em;
+    align-items:center;
+    background: url("./../../images/bb.png");
+    margin-bottom: 1em;
+    border-radius: 5em;
+    background-size:100% 100% , cover;
+    box-shadow: 5px 1px 5px 5px rgb(212, 193, 16);
+    
+   
+}
+.head{
+    align-items: center;
+    justify-content:center;
+    display:grid;
+    margin-top: 1em;
+    background:rgb(156, 44, 57);
+    border-radius: 2em;
+    color:white;
+    
+    
+}
+.cost{
+    align-items: center;
+    justify-content:center;
+    display:grid;
+    
+}

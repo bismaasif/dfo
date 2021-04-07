@@ -9,6 +9,7 @@ import Home from './Pages/Home/Home';
 import Featuredres from './Pages/Featuredrest/Featuredrest';
 import Allrestaurant from './Pages/Allrestaurant/Allrestaurant';
 import ProductCard from './Component/ProductCard/ProductCard';
+import Howtouse from './Pages/Howtouse/Howtouse';
 
 
 
@@ -28,6 +29,7 @@ const App=()=>{
     <Route path="/featuredres" component={Featuredres} exact/>
     <Route path="/allres" component={Allrestaurant} exact/>
     <Route path="/product" component={ProductCard} exact/>
+    <Route path="/slider" component={Howtouse} exact/>
  
 </Switch>
 

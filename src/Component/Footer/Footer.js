@@ -38,7 +38,7 @@ const Footer=()=>{
 
            <div className="row">
                <h6>
-<button className="fa fa-plus-circle"><FacebookIcon/></button>       <button><InstagramIcon/></button>
+<button className="bg"><FacebookIcon/></button>       <button className="bg"><InstagramIcon/></button>
 
       </h6>     
           </div>

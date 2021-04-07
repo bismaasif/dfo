@@ -78,3 +78,7 @@ background-color:maroon;
 hr.new{
 border-top: 2px solid goldenrod;
 }
+.bg{
+    background:maroon;
+    margin-top: 3px;
+}

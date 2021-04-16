@@ -1,6 +1,7 @@
 .contents{
     align-items: center;
     justify-content: center;
+font-size: 18px;
 
 }
 
@@ -29,9 +30,11 @@ background-color:maroon;
     justify-content: center;
     align-items: center;
     color: white;
+    flex-flow: column;
     
   
 }
+
 .item5{
     grid-area: low2;
     display: flex;
@@ -39,6 +42,7 @@ background-color:maroon;
     align-items: center;
     color: white;
     flex-flow: column;
+    font-size: 15px;
     
   
 }
@@ -81,4 +85,12 @@ border-top: 2px solid goldenrod;
 .bg{
     background:maroon;
     margin-top: 3px;
+}
+
+@media only screen and (max-width:858px) {
+    .item4,.item5,.item6{
+        font-size: 9px;
+        
+    }
+    
 }

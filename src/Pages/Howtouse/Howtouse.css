@@ -8,12 +8,14 @@ body{
    
     position:relative;
     margin-top: 10px;
+    z-index: -1;
     
 }
 .container_slider #slide_image_1{
     background:rgb(153, 130, 132);
     background:url("E:/dfo/code/src/images/slide1.png");
     background-size: 100% 100% ,cover;
+    
 }
 .container_slider #slide_image_2{
     background:rgb(138, 101, 104);

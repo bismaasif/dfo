@@ -23,12 +23,12 @@
     align-items: center;
     justify-content:center;
     display:grid;
-    margin-top: 1em;
+    margin-top: 2em;
     background:rgb(156, 44, 57);
     border-radius: 2em;
     color:white;
-    
-    
+    align-self:center;
+    font-size:13px;
     
 }
 .cost{

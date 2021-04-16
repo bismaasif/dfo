@@ -13,7 +13,7 @@ try {
 
   //  async function getData(){
     
-  const products =await axios.get('http://deeefoobackend.herokuapp.com/api/restaurant/getAllFeatured?pageNo=1&size=4');
+  const products =await axios.get('http://deeefoobackend.herokuapp.com/api/restaurant/allfeaturedrestaurants');
  // var products=[];
  //{ query.forEach((product)=>{products.push({...product.data()})})}
 //getData();

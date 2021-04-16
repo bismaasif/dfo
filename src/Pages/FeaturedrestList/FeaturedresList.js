@@ -6,9 +6,11 @@ import {specifiedproduct,allproducts} from './../../Redux/SpdProduct/SpdProductA
 import './FeaturedresList.css'
 
 const FeaturedresList=({specifiedproduct,items})=>{
+    
     console.log(items)
     useEffect(()=>{
 specifiedproduct();
+
 
 
     },[])

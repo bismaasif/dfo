@@ -1,0 +1,57 @@
+.formq{
+    grid-area: new;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0;
+    flex-flow: column;
+    width: 100%;
+padding-bottom: 30%;
+    
+   
+}
+.b1{
+    margin-left: 80px;
+    background-color: rgb(156, 59, 59);
+    color:white;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius:50px;
+}
+.b2{
+    margin-left: 80px;
+    
+    color:white;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    
+
+}
+b1.hover{
+    color:rgb(94, 46, 46);
+}
+.cotx{
+    width:100%;
+    height:40%;
+    display:grid;
+    grid-template-areas: ". new .";
+    grid-template-columns: 30fr 40fr 30fr;
+overflow: hidden;
+   
+
+}
+.hfak{
+    background-size: 100% 100%,cover;
+    width:100%;
+    height:40%;
+}
+@media  screen and (min-width:360px) {
+    .b1,.b2{
+        margin-left:25%;
+    }
+}

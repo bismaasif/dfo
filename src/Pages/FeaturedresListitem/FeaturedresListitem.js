@@ -2,7 +2,7 @@ import ProductCard from "../../Component/ProductCard/ProductCard";
 import './FeaturedresListitem.css'
 const FeaturedresListitem=({...info})=>{
    var data=[];
-  data=info.data.data;
+  data=info.data;
   
     return(
         

@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import DehazeIcon from '@material-ui/icons/Dehaze';
 const Navbar=()=>{
     return(
         <>
@@ -39,7 +40,9 @@ const Navbar=()=>{
                < Link to="/howtouse"> <h4>How To Use</h4></Link>
                
                 </div>
-            
+                <div class="check">
+            <DehazeIcon/>
+            </div>
         </div>
         
         </div>

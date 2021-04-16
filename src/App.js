@@ -10,6 +10,9 @@ import Featuredres from './Pages/Featuredrest/Featuredrest';
 import Allrestaurant from './Pages/Allrestaurant/Allrestaurant';
 import ProductCard from './Component/ProductCard/ProductCard';
 import Howtouse from './Pages/Howtouse/Howtouse';
+import test from './Pages/test/test';
+import Practice from './Component/Practice/Practice';
+import confirmemail from './Pages/confirmemail/confirmemail';
 
 
 
@@ -20,7 +23,8 @@ const App=()=>{
     return(
 <>
 
-<Navbar/>
+<Practice/>
+
 <Switch>
     <Route path="/" component={Home}exact/>
     <Route path="/howtouse" component={Detail} exact/>
@@ -30,8 +34,12 @@ const App=()=>{
     <Route path="/allres" component={Allrestaurant} exact/>
     <Route path="/product" component={ProductCard} exact/>
     <Route path="/slider" component={Howtouse} exact/>
+    <Route path="/test" component={test} exact/>
+    <Route path="/practice" component={Practice} exact/>
+    <Route path="/confirmemail" component={confirmemail} exact/>
  
 </Switch>
+
 
 
 

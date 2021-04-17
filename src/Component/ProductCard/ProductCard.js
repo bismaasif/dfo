@@ -10,13 +10,13 @@ const ProductCard=({...d})=>{
 
     
         <div className="product_card">
-
+<div className="col">
         <div className="product_card_image">
              
 
              </div>
-             <h2 className="head">{Name}</h2><br/>
-            
+             <p className="head">{Name}</p><br/>
+             </div>
         </div>
         </div>
         </>

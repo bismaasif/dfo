@@ -13,7 +13,7 @@
   
 display:grid;
 grid-template-columns: 5fr 30fr 30fr 30fr 5fr;
-grid-template-rows:  50fr 10fr 40fr;
+grid-template-rows:  30fr 10fr 40fr;
 grid-template-areas: " . img img img ."
                 ". i1 i2 i3 ."
                 ". d1 d2 d3 .";
@@ -49,7 +49,7 @@ grid-template-areas: " . img img img ."
   display:flex;
   height: 60px;
   justify-content:center;
-  margin-left: 7px;
+  
 
   
   
@@ -130,3 +130,45 @@ margin-left: 1300%;
   position: relative;
   margin-top: -25%;
 }
+@media (max-width: 890px){
+  .content{
+    font-size:10px
+  }
+  .opacity{
+    width:150px;
+    height:100px;
+    margin-top: 9px;
+  }
+  .playbtn{
+    margin-left:45%;
+    margin-top:-25%;
+    height: 60px;
+    width: 90px;
+  }
+   }
+   @media (max-width: 375px){
+    .content{
+      font-size:8px
+    }
+    .opacity{
+      width:120px;
+      height:80px;
+      margin-top: 15px;
+      margin-right:7px;
+    }
+    .write,.write1,.write2{
+      margin-top:2px;
+    }
+    .no1,.no2,.no3{
+      width:60px;
+      height:30px;
+     padding-left: 20px;
+    }
+    .playbtn{
+      margin-left:45%;
+      margin-top:-25%;
+      height: 40px;
+      width: 70px;
+    }
+     }
+   

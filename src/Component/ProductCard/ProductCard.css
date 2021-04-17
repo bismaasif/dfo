@@ -1,6 +1,7 @@
 .product_card{
     width:10em;
-    padding:2em;
+    padding-left:2em;
+    padding-right:2em;
     border-radius:2em;
  
     background: rgb(111, 11, 23);
@@ -8,15 +9,16 @@
     box-shadow: 5px rgb(94, 88, 88)
 }
 .product_card_image{
-    width:10em;
-    height: 10em;
+    width:8em;
+    height: 8em;
     align-items:center;
     background: url("./../../images/bb.png");
     margin-bottom: 1em;
     border-radius: 5em;
     background-size:100% 100% , cover;
     box-shadow: 5px 1px 5px 5px rgb(212, 193, 16);
-    
+    margin-top: 6px;
+    margin-right:6px
    
 }
 .head{
@@ -29,6 +31,9 @@
     color:white;
     align-self:center;
     font-size:13px;
+    padding:3px;
+    width:90px;
+    
     
 }
 .cost{
@@ -37,3 +42,42 @@
     display:grid;
     
 }
+.col{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 858px){
+   .product_card_image{
+       width:60px;
+       height:50px;
+       box-shadow: 1px 1px 1px 1px yellow;
+       margin-right: 20px;
+    
+   }
+   .head{
+       font-size: 8px;
+       
+       align-items: center;
+       justify-content:center;
+       display:grid;
+       margin-top: 2em;
+       width:60px;
+       margin-left: 0;
+       justify-content: center;
+       align-items:flex-start;
+padding: 0;
+       display: grid;
+    
+   }
+   .col{
+       align-self:flex-start;
+       justify-content: center;
+       display:grid;
+   }
+   .product_card{
+       padding-left: 3px;
+       padding-right: 3px;
+   }
+     }

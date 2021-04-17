@@ -25,5 +25,42 @@ padding-left: 10em;
     padding:10px 20px;
     background:rgb(138, 26, 39);
     border-radius: 2em;
+    
 
 }
+
+
+@media (max-width: 858px){
+    .fs{
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+    }
+    .res{
+        padding-left:0;
+    }
+     }
+
+     
+@media (max-width: 1077px){
+    .fs{
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+     }
+     @media (max-width: 375px){
+        .fs{
+            font-size: 7px;
+            justify-content: center;
+            align-items: center;
+        
+        
+        }
+        .button{
+            margin-left: 30%;
+        }
+         }
+       

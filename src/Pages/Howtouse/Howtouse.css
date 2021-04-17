@@ -3,12 +3,11 @@ body{
 }
 .container_slider .wrapper{
     width:90vw;
-    height: 75vh;
+    height: 100vh;
     margin:5rem auto;
-   
     position:relative;
     margin-top: 10px;
-    z-index: -1;
+    
     
 }
 .container_slider #slide_image_1{
@@ -21,6 +20,7 @@ body{
     background:rgb(138, 101, 104);
     background:url("E:/dfo/code/src/images/video.png");
     background-size: 100% 100% ,cover;
+    
 }
 
 .container_slider #slide_image_3{
@@ -34,11 +34,15 @@ body{
     height:100%;
     animation: slide 15s ease infinite;
     overflow: hidden;
+    
 }
 .container_slider .btn_holder{
     position:absolute;
     left:45%;
+    top: 90%;
     bottom:0%;
+    
+    
     
 }
 .container_slider{
@@ -51,6 +55,9 @@ body{
     border-radius: 3rem;
     background-color: bisque;
     margin: .4rem .3rem;
+}
+.dots:hover{
+    background: rgb(83, 13, 13);
 }
 @keyframes slides{
 0%{transform:translateX(0%)}
@@ -66,3 +73,19 @@ body{
 100%{transform:translateX(0%)}
 }
 
+@media (max-width: 375px){
+    .container_slider .wrapper{
+        width:90vw;
+        height: 30vh;
+    }
+    .container_slider .btn_holder{
+        left:35%;
+       
+
+        }
+        .dots{
+            height: 10px;
+            width:10px;
+        }
+        
+    }

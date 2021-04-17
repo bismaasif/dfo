@@ -41,3 +41,28 @@
     flex-direction: column;
     
 }
+@media (max-width: 375px){
+    .play,.form{
+        width:40px;
+        height:10px;
+    }
+    }
+    @media (max-width: 900px){
+        .play,.form{
+            width:150px;
+            height:70px;
+
+        }
+        }
+        @media (max-width: 1050px){
+            .play,.form{
+                width:150px;
+                height:70px;
+            }
+            }
+            @media (max-width: 753px){
+                .play,.form{
+                    width:90px;
+                    height:30px;
+                }
+                }

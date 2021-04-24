@@ -8,13 +8,15 @@ import './test.css';
 const Test=()=>{
   var [Pass,Setpass]=useState("");
   var [Cpass,Setcpass]=useState("");
+ 
   var submitform=(e)=>{
   
     e.preventDefault();
      var password={
          Pass,Cpass
      }
-     console.log(password)
+     console.log(password);
+     
  }
  const useStyles = makeStyles((theme) => ({
     root: {

@@ -2,6 +2,7 @@ import './Footer.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import ProductCard from '../ProductCard/ProductCard';
+import { Link } from 'react-router-dom';
 
 
 
@@ -38,8 +39,13 @@ const Footer=()=>{
 
            <div className="row">
                <h6>
-<button className="bg"><FacebookIcon/></button>       <button className="bg"><InstagramIcon/></button>
-
+            <a href="https://m.facebook.com/deeefoo/">     
+<button className="bg"  >
+    <FacebookIcon/></button> 
+    </a> 
+   <a href="https://instagram.com/deeefooapp?igshid=rk6jpo7iju4g">
+          <button className="bg"><InstagramIcon/></button>
+          </a>
       </h6>     
           </div>
            </div>

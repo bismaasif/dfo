@@ -129,6 +129,7 @@ margin-left: 1300%;
   margin-left: 45%;
   position: relative;
   margin-top: -25%;
+  cursor: pointer;
 }
 @media (max-width: 890px){
   .content{

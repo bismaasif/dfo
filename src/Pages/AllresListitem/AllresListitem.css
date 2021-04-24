@@ -1,0 +1,53 @@
+.display:checked{
+    display: none;
+}
+hr.neww{
+    border-top: 2px solid goldenrod;
+display: grid;
+grid-template-columns:100fr;
+
+}
+.f{
+    width: 100%;
+    display: grid;
+    grid-template-columns:100fr;
+  
+}
+.viewmore{
+    margin-left: 45%;
+    /* border-bottom: 5px; */
+    
+overflow: hidden;
+height: 50px;
+width: 150px;
+background: url("E:/dfo/code/src/images/smbg2.png");
+overflow: hidden;
+background-size: 100% 100%,cover;
+
+}
+.viewall{
+    margin-left: 45%;
+    /* border-bottom: 5px; */
+    
+overflow: hidden;
+height: 50px;
+width: 150px;
+background: url("E:/dfo/code/src/images/seeall.png");
+
+background-size: 100% 100%,cover;
+}
+.viewless{
+
+    margin-left: 45%;
+    /* border-bottom: 5px; */
+    
+overflow: hidden;
+height: 50px;
+width: 150px;
+background: url("E:/dfo/code/src/images/viewless.png");
+
+background-size: 100% 100%,cover;
+}
+.viewmore,.viewless,.viewall:hover{
+cursor: pointer;
+}

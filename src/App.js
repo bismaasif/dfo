@@ -34,9 +34,14 @@ const App=()=>{
     <Route path="/allres" component={Allrestaurant} exact/>
     <Route path="/product" component={ProductCard} exact/>
     <Route path="/slider" component={Howtouse} exact/>
-    <Route path="/test" component={test} exact/>
+   
     <Route path="/practice" component={Practice} exact/>
-    <Route path="/confirmemail" component={confirmemail} exact/>
+
+
+
+    <Route path="/emailconfirmation/profile/user/:id/:token" component={confirmemail} exact/>
+
+    <Route path="/profile/user/:id/:token/newpassword" component={test} exact/>
  
 </Switch>
 

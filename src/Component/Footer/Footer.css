@@ -81,10 +81,13 @@ background-color:maroon;
 
 hr.new{
 border-top: 2px solid goldenrod;
+
 }
 .bg{
     background:maroon;
+    outline: none;
     margin-top: 3px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width:858px) {

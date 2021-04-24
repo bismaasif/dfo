@@ -20,15 +20,16 @@ const Featuredres=({items})=>{
     ,[])
     return(
         <>
-         <hr className="new"/>
-         <h2 className="fs">Featured  Restaurants</h2>
+       
+         <hr className="new"></hr>
+         <h2 className="fs">Featured Restaurants</h2>
         <div className="res">
         <FeaturedresList/>
         
         </div>
-        <hr className="new"/>
-        <Link to="/allres"><div className="button"><img src={img1}/></div></Link>
-    
+        {/* <hr className="new"/>
+        <div className="button"></div> */}
+        
         </>
         )
 }

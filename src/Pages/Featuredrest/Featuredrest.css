@@ -1,15 +1,23 @@
 .res{
     display: grid;
-grid-template-columns: 100fr;
-padding-left: 10em;
-    
+grid-template-columns: 100fr ;
+/* padding-left: 5em; */ 
+/* padding-right: 1em; */
+  
     background:rgb(111, 11,23);
 }
+
 .button{
     margin-left: 45%;
     border-bottom: 5px;
-
-    
+height: 50px;
+width: 150px;
+background: url("E:/dfo/code/src/images/smbg2.png");
+overflow: hidden;
+background-size: 100% 100%,cover;
+}
+.i{
+    background-size: 100% 100%,cover;
 }
 .new1{
     border-radius: 50%/100px 100px  0 0;
@@ -35,6 +43,7 @@ padding-left: 10em;
         font-size: 14px;
         justify-content: center;
         align-items: center;
+       
     }
     .res{
         padding-left:0;
@@ -53,14 +62,27 @@ padding-left: 10em;
      }
      @media (max-width: 375px){
         .fs{
-            font-size: 7px;
+            font-size: 20px;
             justify-content: center;
             align-items: center;
-        
+            align-self: center;
+        width: 50%;
+        margin-left: 23%;
         
         }
         .button{
             margin-left: 30%;
+            width: 90px;
+            height: 30px;
+            margin-left: 40%;
+          margin-top:-0.5%;
+           background-size:100% 100%,cover;
+            
+        }
+       
+        
+        .res{
+            /* padding-left:  2em; */
         }
          }
        

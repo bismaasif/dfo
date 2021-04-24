@@ -10,20 +10,20 @@ const Practice=()=>{
       <label for="check" class="checkbtn">
        <DehazeIcon/>
       </label>
-      <label class="logo">DEEEFOO</label>
+      <label class="logo"> Deeefoo</label>
       <ul>
         <li><a class="active" href="#">
         <Link to="/">
             Home
                 </Link>
             </a></li>
-        <li><a href="#">
+        {/* <li><a href="#">
            
             <Link to="/featuredres">
             Featuerd Restaurants
                 </Link>
                 
-            </a></li>
+            </a></li> */}
         <li><a href="#">
             
             < Link to="/howtouse"> How To Use</Link>

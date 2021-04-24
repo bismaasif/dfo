@@ -2,7 +2,9 @@
   body{
     font-family: montserrat;
   }
+  
   nav{
+
     background:maroon;
     height: 80px;
     width: 100%;
@@ -51,6 +53,7 @@
   #check{
     display: none;
   }
+  
   @media (max-width: 952px){
     label.logo{
       font-size: 30px;

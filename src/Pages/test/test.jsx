@@ -3,19 +3,23 @@ import Footer from '../../Component/Footer/Footer';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import imgf from './../../images/form.png';
+import { setnewpassword} from './../../Utility/Utility.js'
 
 import './test.css';
 const Test=()=>{
   var [Pass,Setpass]=useState("");
   var [Cpass,Setcpass]=useState("");
- 
+ var url=window.location.href;
+ var para=url.split("/");
+
   var submitform=(e)=>{
   
     e.preventDefault();
-     var password={
-         Pass,Cpass
-     }
-     console.log(password);
+    setnewpassword(para[5],para[6],Cpass)
+    //  var password={
+    //      Pass,Cpass
+    //  }
+    //  console.log(password);
      
  }
  const useStyles = makeStyles((theme) => ({

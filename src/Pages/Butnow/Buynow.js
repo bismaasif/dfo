@@ -2,7 +2,7 @@ import './Buynow.css';
 import imgz from './../../images/buy.png';
 import imgy from './../../images/googleplay.png';
 import imgx from './../../images/googleform.png';
-import imgb from './../../images/pages.png';
+import imgb from './../../images/page.png';
 import Allrestaurant from '../Allrestaurant/Allrestaurant';
 const Buynow=()=>{
     return(

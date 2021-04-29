@@ -3,7 +3,7 @@
 
 }
 .fs1{
-    font-size: 40px;
+    /* font-size: 40px;
     color:white;
     margin-left:38%;
     margin-top: 10px;
@@ -12,7 +12,17 @@
     width: 20%;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 20px;
+    border-radius: 20px; */
+    margin-left: 40%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: white;
+    width: 18%;
+    padding:10px 20px;
+    background:rgb(138, 26, 39);
+    border-radius: 2em;
+    font-size: 30px;
+    padding-left: 50px
 
 }
 .new2{
@@ -21,3 +31,103 @@
     padding-left: 10px;
     border: 1px solid yellow;
 }
+
+     
+@media (max-width: 1077px){
+    .fs1{
+        font-size: 26px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+    
+    
+    }
+     }
+          
+@media (max-width: 984px){
+    .fs1{
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+    
+    
+    }
+     }
+     @media (max-width: 763px){
+        .fs1{
+            font-size: 18px;
+            justify-content: center;
+            align-items: center;
+            padding-left: 25px;
+        
+        
+        }
+         }
+         @media (max-width: 686px){
+            .fs1{
+                font-size: 16px;
+                justify-content: center;
+                align-items: center;
+                padding-left: 25px;
+            
+            
+            }
+             }
+             @media (max-width: 613px){
+                .fs1{
+                    font-size: 19px;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 25px;
+                    width: 25%;
+                
+                
+                }
+                 }
+                 @media (max-width: 528px){
+                    .fs1{
+                        font-size: 16px;
+                        justify-content: center;
+                        align-items: center;
+                        padding-left: 25px;
+                        width: 25%;
+                    
+                    
+                    }
+                     }
+                     @media (max-width: 447px){
+                        .fs1{
+                            font-size: 14px;
+                            justify-content: center;
+                            align-items: center;
+                            padding-left: 25px;
+                            width: 25%;
+                        
+                        
+                        }
+                         }
+                         @media (max-width: 391px){
+                            .fs1{
+                                font-size: 12px;
+                                justify-content: center;
+                                align-items: center;
+                                padding-left: 25px;
+                                width: 25%;
+                            
+                            
+                            }
+                             }
+@media (max-width: 375px){
+    .fs1{
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    width: 40%;
+    margin-left: 23%;
+    padding-left: 35px;
+    }
+
+     
+    }

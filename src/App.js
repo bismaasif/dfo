@@ -2,6 +2,7 @@ import './App.css';
 import React from "react";
 import {Switch,Route, BrowserRouter} from 'react-router-dom';
 import Footer from './Component/Footer/Footer';
+import Dialogbox from './Component/Dialogbox/Dialogbox';
 import Navbar from './Component/Navbar/Navbar';
 import Detail from './Pages/Detail/Detail';
 import Buynow from './Pages/Butnow/Buynow';
@@ -42,6 +43,7 @@ const App=()=>{
     <Route path="/emailconfirmation/profile/user/:id/:token" component={confirmemail} exact/>
 
     <Route path="/profile/user/:id/:token/newpassword" component={test} exact/>
+    <Route path="/db" component={Dialogbox} exact/>
  
 </Switch>
 

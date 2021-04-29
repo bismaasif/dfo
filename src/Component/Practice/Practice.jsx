@@ -1,6 +1,7 @@
 import React from 'react';
 import './Practice.css';
 import { Link } from 'react-router-dom';
+import logo from './../../images/logo.png';
 import DehazeIcon from '@material-ui/icons/Dehaze';
 const Practice=()=>{
     return(
@@ -10,7 +11,7 @@ const Practice=()=>{
       <label for="check" class="checkbtn">
        <DehazeIcon/>
       </label>
-      <label class="logo"> Deeefoo</label>
+      <label class="logo"> <img className="logo2" src={logo} /></label>
       <ul>
         <li><a class="active" href="#">
         <Link to="/">

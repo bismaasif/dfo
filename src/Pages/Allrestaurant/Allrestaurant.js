@@ -25,7 +25,7 @@ const Allrestaurant=()=>{
         <>
         <hr className="new"></hr>
         <div className="res">
-<div className="fs1">All Restaurants</div>
+<div className="fs1"><b>All Restaurants</b></div>
 <br/>
        
         <AllrestaurantList/>

@@ -5,9 +5,9 @@ var SpdProductReducer=(state=initialstate,action)=>{
     var {type,payload}=action;
     switch (type) {
       case product_set:
-          return [...state,payload.products]
+          return [payload.products]
         case product_set_page:
-          return [...state,payload.products]
+          return [payload.products]
      default:
       return state;
     }

@@ -23,6 +23,7 @@
 }
 .email-btn:hover{
     background: rgb(48, 4, 4);
+    cursor: pointer;
 }
 .fill{
     height:100%;

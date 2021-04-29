@@ -51,3 +51,13 @@ background-size: 100% 100%,cover;
 .viewmore,.viewless,.viewall:hover{
 cursor: pointer;
 }
+
+@media only screen and (max-width:400px) {
+    .viewmore,.viewless,.viewall {
+        margin-left: 32%;
+        height: 35px;
+        width:120px
+        
+    }
+    
+}

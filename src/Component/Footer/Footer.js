@@ -1,6 +1,7 @@
 import './Footer.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import logo from './../../images/logo.png';
 import ProductCard from '../ProductCard/ProductCard';
 import { Link } from 'react-router-dom';
 
@@ -14,10 +15,10 @@ const Footer=()=>{
            <div className="item1"></div>
            <div className="item2">
            <div className="contents">
-           <b><h1>Deeefoo</h1></b>
+           <b><h1><img className="logo1" src={logo} /></h1></b>
            
            <p className="para">eat the best</p>
-           
+  
            <hr className="new"/>
            <br/>
        </div>

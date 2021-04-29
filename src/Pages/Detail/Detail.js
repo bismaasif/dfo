@@ -11,7 +11,7 @@ import img8 from './../../images/fulls1.png';
 import img9 from './../../images/desboxbg.png';
 import img10 from './../../images/bg.png';
 import img1 from './../../images/playbtnbg.png'
-import it from './../../images/video.png'
+import it from './../../images/newvideo.png'
 import './Detail.css';
 
 const Detail=()=>{

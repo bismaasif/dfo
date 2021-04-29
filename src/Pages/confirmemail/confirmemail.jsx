@@ -3,11 +3,11 @@ import Footer from '../../Component/Footer/Footer';
 import { confirmemailhere} from './../../Utility/Utility.js'
 const confirmemail=()=>{
         const urll= window.location.href;
-        console.log(urll);
+        // console.log(urll);
         var param=urll.split("/");
        
-        console.log(param[6]);
-        console.log(param[7]);
+        // console.log(param[6]);
+        // console.log(param[7]);
         
 //         var params;
 // for (var i=0;i<urll.length;i++) {

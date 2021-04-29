@@ -60,6 +60,72 @@ background-size: 100% 100%,cover;
     
     }
      }
+          
+@media (max-width: 1055px){
+    .fs{
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+     }
+     @media (max-width: 947px){
+        .fs{
+            font-size: 16px;
+            justify-content: center;
+            align-items: center;
+        
+        
+        }
+         }
+         @media (max-width: 845px){
+            .fs{
+                font-size: 14px;
+                justify-content: center;
+                align-items: center;
+            
+            
+            }
+             }
+             @media (max-width: 739px){
+                .fs{
+                    font-size: 12px;
+                    justify-content: center;
+                    align-items: center;
+                
+                
+                }
+                 }
+                 @media (max-width: 636px){
+                    .fs{
+                        font-size: 10px;
+                        justify-content: center;
+                        align-items: center;
+                    
+                    
+                    }
+                     }
+                     @media (max-width: 540px){
+                        .fs{
+                            font-size: 14px;
+                            justify-content: center;
+                            align-items: center;
+                        width:30%;
+                        margin-left:35%;
+                        
+                        }
+                         }
+                         @media (max-width: 452px){
+                            .fs{
+                                font-size: 12px;
+                                justify-content: center;
+                                align-items: center;
+                            width:30%;
+                            margin-left:35%;
+                            
+                            }
+                             }
      @media (max-width: 375px){
         .fs{
             font-size: 20px;

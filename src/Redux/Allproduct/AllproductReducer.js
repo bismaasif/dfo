@@ -6,7 +6,7 @@ var AllproductReducer=(state=initialstate,action)=>{
     switch (type) {
       
         case allproductset:
-          return[...state,payload.allproducts]
+          return[payload.allproducts]
      default:
       return state;
     }

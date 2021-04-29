@@ -2,7 +2,10 @@
   body{
     font-family: montserrat;
   }
-  
+  .logo2{
+    width:20%;
+    margin-top: 15px;
+  }
   nav{
 
     background:maroon;

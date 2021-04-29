@@ -4,6 +4,9 @@
 font-size: 18px;
 
 }
+.logo1{
+    width:130px
+}
 
 .container{
     
@@ -75,7 +78,7 @@ background-color:maroon;
 }
 .para{
     justify-content: center;
-    margin-left:10px;
+    margin-left:22px;
     margin-top: 6px;
 }
 
